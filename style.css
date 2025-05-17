@@ -1,0 +1,53 @@
+
+  li{
+    font-size: 24px;
+    font-weight: 200;
+  }
+  input{
+    width:300px;
+    height:50px;
+    font-size:32px;
+  }
+  body{
+    background-color:#708090;
+  }
+  #todo{
+    display: inline-block;
+    background-color: aqua;
+    width:70px;
+    height:55px;
+  }
+  button{
+    background-color: aqua;
+
+  }
+  .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+  }
+
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+  }
+
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+  
